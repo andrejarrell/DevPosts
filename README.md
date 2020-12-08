@@ -3,6 +3,11 @@
 [![actionshackathon](https://img.shields.io/badge/%23actionshackathon-0A0A0A?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/andrejarrell/dev-posts-on-github-4pij)
 
 <!-- devposts:start -->
+|                                         📰 Name                                        |   📅 Date  | ❤ Reactions | 💬 Comments |
+| :------------------------------------------------------------------------------------: | :--------: | :---------: | :---------: |
+| [My Fav Browser Extensions](https://dev.to/andrejarrell/my-fav-browser-extensions-n0c) | 09/18/2020 |      4      |      0      |
+|      [Basic Linux Commands](https://dev.to/andrejarrell/basic-linux-commands-1dgf)     | 08/19/2020 |      6      |      0      |
+|           [My VSCode Setup](https://dev.to/andrejarrell/my-vscode-setup-11a2)          | 08/18/2020 |      7      |      2      |
 <!-- devposts:end -->
 
 > This is a GitHub Action that will allow you to show your most recent blog posts from [dev.to](https://dev.to) in your README
