@@ -1,3 +1,4 @@
+let { URL } = require('url');
 let https = require('./https');
 let moment = require('moment');
 let fs = require('fs').promises;
@@ -34,8 +35,8 @@ let util = {
     },
 
     getStats: async url => {
-        let slug = url.substr(15);
-        let stats = await https.get(`https://dev.to/api/articles/${slug}`);
+        let slug = new URL(url).pathname;
+        let stats = await https.get(`https://dev.to/api/articles${slug}`);
         return {
             comments: stats.comments_count,
             reactions: stats.public_reactions_count,
